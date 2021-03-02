@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CS102_Projekat_BojanPetrovic2745.jnlp">
+  <information>
+    <title>CS102_Projekat_BojanPetrovic2745</title>
+    <vendor>Rastaman</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CS102_Projekat_BojanPetrovic2745.jar" size="39069" download="eager" />
+    <jar href="lib\jsoup-1.6.0.jar" size="279211" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="843090" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.5.jar" size="676693" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CS102_Projekat_BojanPetrovic2745" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Main"  name="CS102_Projekat_BojanPetrovic2745" />
+  <update check="always"/>
+</jnlp>
